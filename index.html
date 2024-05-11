@@ -1,0 +1,345 @@
+f<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect Tool But Better</title>
+    <style>
+        body {
+            background: url('https://rtbb.istan.to/backgrounds/bg5.gif');
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        h1 {
+            color: #f1f1f1;
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #f1f1f1;
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        h3 {
+            color: #f1f1f1;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        h4 {
+            color: #f1f1f1;
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 20px;
+            }
+        input[type="url"] {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            max-width: 500px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        button {
+            background-color: #a800ff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        button:hover {
+            background-color: #000;
+            transform: scale(1.05);
+        }
+        button:active {
+            transform: scale(0.95);
+        }
+    </style>
+</head>
+<body>
+    <h1 id ="credits"> </h1>
+    <div class="container">
+        <h1>Redirect Tool But Better</h1>
+
+        <h2>the advanced version of Kahaans Redirect Tool</h2>
+        <h3>scroll down for games and lots of proxies</h3>
+
+        <input type="url" id="inputs-1">
+
+        <button onclick="goto_url()">Go to URL</button>
+        <button onclick="goto_gle()">Google</button>
+        <button onclick="goto_prox('hide')">Embed Version</button>
+        <button onclick="goto_prox('nowgg')">now.gg</button>
+        <button onclick="goto_prox('abc')">about:blank opener</button>
+        <button onclick="goto_prox('credits')">Credits</button>
+
+        <h1>Proxies</h1>
+        <h3>some proxies take a sec to load (sorry abt that)</h3>
+        <button onclick="goto_prox('uv')">Ultraviolet</button>
+        <button onclick="goto_prox('uv3')">Ultraviolet 2</button>
+        <button onclick="goto_prox('uv2')">Kahaans Ultraviolet</button>
+        <button onclick="goto_prox('proxy')">RTBB Proxy</button>
+        <button onclick="goto_prox('rh')">Rammerhead</button>
+        <button onclick="goto_prox('interstellar')">Interstellar</button>
+        <button onclick="goto_prox('interstellar2')">Kahaans Interstellar</button>
+        <button onclick="goto_prox('incog')">Incognito</button>
+        <button onclick="goto_prox('shadow')">Shadow Tabbed</button>
+        <button onclick="goto_prox('utopia')">Utopia</button>
+        <button onclick="goto_prox('ht')">Hypertabs</button>
+        <button onclick="goto_prox('ht2')">Hypertabs 2</button>
+        <button onclick="goto_prox('terbium')">Terbium</button>
+        <button onclick="goto_prox('metallic')">Metallic</button>
+        <button onclick="goto_prox('tin')">Tinf0il</button>
+        <button onclick="goto_prox('emerald')">Emerald</button>
+        <button onclick="goto_prox('art')">Art Class</button>
+        <button onclick="goto_prox('doge')">Doge Unblocker</button>
+        <button onclick="goto_prox('shuttle')">Shuttle</button>
+        <button onclick="goto_prox('ruby')">Ruby</button>
+        <button onclick="goto_prox('abyss')">Abyss</button>
+        <button onclick="goto_prox('abyss2')">Abyss 2</button>
+        <button onclick="goto_prox('static')">Ultraviolet Static</button>
+        <button onclick="goto_prox('astroid')">Astroid</button>
+        <button onclick="goto_prox('node')">Node Unblocker</button>
+        <button onclick="goto_prox('dm')">DM Unblocker</button>
+        
+
+        <h1>Game Sites</h1>
+        <button onclick="goto_prox('phantom')">Phantom Games</button>
+        <button onclick="goto_prox('selenite')">Selenite</button>
+        <button onclick="goto_prox('jptr')">imadejptr</button>
+        <button onclick="goto_prox('movie')">Watch Movies (use on proxy)</button>
+
+        
+        <h1>Games</h1>
+        <button onclick="goto_prox('bitlife')">Bitlife</button>
+        <button onclick="goto_prox('snowrider')">Snow Rider 3D</button>
+        <button onclick="goto_prox('fnaf')">FNAF</button>
+        <button onclick="goto_prox('fnaf2')">FNAF 2</button>
+        <button onclick="goto_prox('fnaf3')">FNAF 3</button>
+        <button onclick="goto_prox('fnaf4')">FNAF 4</button>
+        <button onclick="goto_prox('tunnel_rush')">Tunnel Rush</button>
+        <button onclick="goto_prox('vex6')">Vex 6</button>
+        <button onclick="goto_prox('subway')">Subway Surfers</button>
+        <button onclick="goto_prox('slope')">Slope</button>
+        <button onclick="goto_prox('pizza')">Papas Pizzeria</button>
+        <button onclick="goto_prox('crossy_road')">Crossy Road</button>
+        <button onclick="goto_prox('totm')">Tomb Of The Mask (its blocked u have to use proxy)</button>
+        <button onclick="goto_prox('savemypet')">Save My Pet</button>
+        <button onclick="goto_prox('snowball')">Snowball.IO</button>
+        <button onclick="goto_prox('run3')">Run 3</button>
+        <button onclick="goto_prox('rb')">Retro Bowl</button>
+        <button onclick="goto_prox('run')">Run</button>
+        <button onclick="goto_prox('2048')">2048</button>
+        <button onclick="goto_prox('paper')">Paper IO</button>
+        
+        
+
+
+
+
+        
+    </div>
+
+    <script>
+        function goto_url() {
+            const element = document.getElementById('inputs-1');
+            window.location.href = element.value;
+        }
+
+        function goto_prox(s) {
+            if (s === "uv") {
+                const element = "https://inc.letz.dev/";
+                window.location.href = element;
+            } else if (s === "terbium") {
+                const element = "https://xn--bck1dqb7b7e.letz.dev/";
+                window.location.href = element;
+            } else if  (s === "nowgg") {
+                const element = "/nowgg";
+                window.location.href = element;
+            } else if (s === "credits") {
+                document.getElementById("credits").innerHTML = "Made by emil. Original and Official Redirect Tool by Kahaan https://woosh9129.github.io/redirectool"
+            } else if (s === "uv2") {
+                const element = "https://uv.u46-war-education.xyz/";
+                window.location.href = element;
+            } else if (s === "shadow") {
+                const element = "https://shadow.letz.dev/";
+                window.location.href = element;
+            } else if (s === "tunnel_rush") {
+                const element = "https://bonbang.github.io/store6/tunnel-rush//";
+                window.location.href = element;
+            } else if (s === "phantom") {
+                const element = "https://spirits.xn--c-sga.net/";
+                window.location.href = element;
+            } else if (s === "vex6") {
+                const element = "https://spirits.xn--c-sga.net/game/vex6/index.html";
+                window.location.href = element;
+            } else if (s === "subway") {
+                const element = "https://bonbang.github.io/subway-surfers/";
+                window.location.href = element;
+            } else if (s === "slope") {
+                const element = "https://bonbang.github.io/slope/";
+                window.location.href = element;
+            } else if (s === "pizza") {
+                const element = "https://bitent.com/swf/papas_pizzeria/";
+                window.location.href = element;
+            } else if (s === "crossy_road") {
+                const element = "https://spirits.xn--c-sga.net/game/crossyroad/index.html";
+                window.location.href = element;
+            } else if (s === "totm") {
+                const element = "https://tombofthemask.github.io/g8/tomb-of-the-mask/";
+                window.location.href = element;
+            } else if (s === "savemypet") {
+                const element = "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/nurimoores/DataSources@9f54c673948151d03a62f5e63c67efaf558759ab/smp.xml&container=ig";
+                window.location.href = element;
+            } else if (s === "fnaf") {
+                const element = "https://988.vercel.app/fnaf/index.html";
+                window.location.href = element;
+            } else if (s === "snowball") {
+                const element = "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/gertdoro/SQLite4Unity3d@8516fc0bd1d2be662ca484f5dc506268b24763ef/Example/Assets/snowball.xml&container=ig";
+                window.location.href = element;
+            } else if (s === "run") {
+                const element = "https://www.coolmathgames.com/0-run/play";
+                window.location.href = element;
+            } else if (s === "rb") {
+                const element = "https://spirits.xn--c-sga.net/game/retro-bowl/index.html";
+                window.location.href = element;
+            } else if (s === "metallic") {
+                const element = "https://metallic1-dhgeot5m.b4a.run/";
+                window.location.href = element;
+            } else if (s === "art") {
+                const element = "https://p.xn--c-sga.net/";
+                window.location.href = element;
+            } else if (s === "doge") {
+                const element = "https://01100111.890860.xyz/app";
+                window.location.href = element;
+            } else if (s === "emerald") {
+                const element = "https://crystal.saintsparky.org/";
+                window.location.href = element;
+            } else if (s === "bitlife") {
+                const element = "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/sk1bx/awesome-aws@37c682c65a5a4c1ddc5b5ff2b840924526f209b4/scripts/blf.xml&container=ig";
+                window.location.href = element;
+            } else if (s === "ht") {
+                const element = "https://ht.saintsparky.org/";
+                window.location.href = element;
+            } else if (s === "abyss2") {
+                const element = "https://abyss1-rxixmhhk.b4a.run/";
+                window.location.href = element;
+            } else if (s === "abyss") {
+                const element = "https://spirits.sentinam.io/";
+                window.location.href = element;
+            } else if (s === "astroid") {
+                const element = "https://astro.letz.dev/worksheets/search.html";
+                window.location.href = element;
+            } else if (s === "incog") {
+                const element = "https://incognito1-qg6g9yki.b4a.run/";
+                window.location.href = element;
+            } else if (s === "static") {
+                const element = "https://cellscience.pages.dev/static/";
+                window.location.href = element;
+            } else if (s === "node") {
+                const element = "https://xn--j1aim.mathwhizz.sentinam.io";
+                window.location.href = element;
+            } else if (s === "selenite") {
+                const element = "https://study-algebra.vercel.app/projects.html";
+                window.location.href = element;
+            } else if (s === "snowrider") {
+                const element = "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/mind4ur/debugactions@6e97a528bfcdd0623e0cd99ad352baebf47a6b70/sr3d2.xml&container=ig";
+                window.location.href = element;
+            } else if (s === "movie") {
+                const element = "https://flixhd.cc/";
+                window.location.href = element;
+            } else if (s === "interstellar") {
+                const element = "https://335.vercel.app/";
+                window.location.href = element;
+            } else if (s === "ruby") {
+                const element = "https://ruby.sentinam.io/";
+                window.location.href = element;
+            } else if (s === "fnaf2") {
+                const element = "https://988.vercel.app/fnaf2/index.html";
+                window.location.href = element;
+            } else if (s === "fnaf3") {
+                const element = "https://988.vercel.app/fnaf3/index.html";
+                window.location.href = element;
+            } else if (s === "fnaf4") {
+                const element = "https://988.vercel.app/fnaf4/index.html";
+                window.location.href = element;
+            } else if (s === "rh") {
+                const element = "https://rh.saintsparky.org/";
+                window.location.href = element;
+            } else if (s === "run3") {
+                const element = "https://www.coolmathgames.com/0-run-3/play";
+                window.location.href = element;
+            } else if (s === "2048") {
+                const element = "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/bobydob/JSEngine@699000e1fa30c8a6cd0ed9c0d45b0f8dabedf0c9/build/2048/2048.xml&container=ig";
+                window.location.href = element;
+            } else if (s === "paper") {
+                const element = "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/bobydob/JSEngine@b8b8a03997f38305098c2f2f5fe14907463cd23b/build/ppo2/ppo2.xml&container=ig";
+                window.location.href = element;
+            } else if (s === "ht2") {
+                const element = "https://cells-personification.cyclic.app/";
+                window.location.href = element;
+            } else if (s === "hide") {
+                const element = "/hide";
+                window.location.href = element;
+            } else if (s === "dm") {
+                const element = "https://cool.blinklab.com/";
+                window.location.href = element;
+            } else if (s === "shuttle") {
+                const element = "https://algebra.stickyricecakes.com/";
+                window.location.href = element;
+            } else if (s === "proxy") {
+                const element = "https://prxy.rtbb.istan.to/static/";
+                window.location.href = element;
+            } else if (s === "interstellar2") {
+                const element = "https://interstellar.u46-war-education.xyz/";
+                window.location.href = element;
+            } else if (s === "uv3") {
+                const element = "https://ultraviolet-test-labs.vercel.app/";
+                window.location.href = element;
+            } else if (s === "abc") {
+                const element = "/aboutblank";
+                window.location.href = element;
+            } else if (s === "jptr") {
+                const element = "https://im4dejptrv2.glitch.me/";
+                window.location.href = element;
+            } else if (s === "tin") {
+                const element = "https://connect.pixeltabletzremotedesktop.site/proxy.html";
+                window.location.href = element;
+            } else if (s === "utopia") {
+                const element = "https://class.work.bradenlu.com/";
+                window.location.href = element;
+            }
+        }
+
+        function goto_gle() {
+            const element = "https://google.com";
+            window.location.href = element;
+        }
+            
+    </script>
+</body>
+</html>
+<!-- ✅ - made by me -->
+<!-- ☑️ - not made by me -->
+<!-- 🔴 - site is down -->
+<!-- 🟡 - site may be slow but proxy isnt -->
+<!-- 🌐 - site works on normal google (no geogebra) -->
