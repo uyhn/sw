@@ -87,6 +87,7 @@ f<!DOCTYPE html>
 
         <button onclick="goto_url()">Go to URL</button>
         <button onclick="goto_gle()">Google</button>
+        <button onclick="goto_prox('proxy')">Built In Proxy</button>
         <button onclick="goto_prox('hide')">Embed Version</button>
         <button onclick="goto_prox('nowgg')">now.gg</button>
         <button onclick="goto_prox('abc')">about:blank opener</button>
@@ -326,6 +327,9 @@ f<!DOCTYPE html>
                 window.location.href = element;
             } else if (s === "utopia") {
                 const element = "https://class.work.bradenlu.com/";
+                window.location.href = element;
+            } else if (s === "proxy") {
+                const element = "/uv.html";
                 window.location.href = element;
             }
         }
